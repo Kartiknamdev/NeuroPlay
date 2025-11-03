@@ -6,6 +6,8 @@ import InvisibleWall from "./games/InvisibleWall/InvisibleWall";
 import MemoryMatrix from "./games/MemoryMatrix/MemoryMatrix";
 import QuickFireMath from "./games/QuickFireMath/QuickFireMath";
 import Scoreboard from "./pages/Scoreboard";
+import About from "./pages/About";
+import Privacy from "./pages/Privacy";
 
 function Placeholder({ title }) {
   return (
@@ -26,6 +28,8 @@ export default function App() {
   <Route path="/memory-matrix" element={<MemoryMatrix />} />
   <Route path="/quick-math" element={<QuickFireMath />} />
   <Route path="/scoreboard" element={<Scoreboard />} />
+  <Route path="/about" element={<About />} />
+  <Route path="/privacy" element={<Privacy />} />
       </Routes>
     </Router>
   );

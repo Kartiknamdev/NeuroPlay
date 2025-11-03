@@ -169,6 +169,10 @@ export default function QuickFireMath() {
         </div>
       </div>
 
+      <div className="max-w-3xl mx-auto px-4 mb-4 text-sm text-gray-300">
+        <p>Quick-Fire Math is a timed arithmetic challenge where you answer as many questions as possible before time runs out. Correct answers increase score and may extend your time slightly; wrong answers deduct time. Use the keypad or keyboard to answer quickly.</p>
+      </div>
+
       {!gameOver ? (
         <div className="bg-black/30 p-6 rounded-lg relative overflow-hidden">
           {/* animated time progress bar */}
